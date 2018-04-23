@@ -1,0 +1,249 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+html
+{
+    height: 100%;
+    width: 100%;
+}
+
+#header
+{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    text-align: left;
+/*    background-color: rgb(82, 140, 111);*/
+    color: white;
+    border-bottom-color: transparent;
+/*    border-bottom-color: #6DA388;*/
+    border-bottom-style: solid;
+    border-bottom-width: 0.2px;
+}
+
+.hhh
+{
+    background-color: RGBA(117, 63, 101, 0.62);
+}
+/*rgb(112, 146, 76)*/
+
+#header>a
+{
+    text-decoration: none;
+    color: RGBA(142, 207, 211, 1);
+    font-size: 30px;
+    position: absolute;
+    padding: 14px 10px;
+    top: 0px;
+    left: 10%;
+    font-weight: bold;
+}
+
+#header>a>span
+{
+    position: relative;
+}
+
+nav
+{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: transparent;
+    height: 70px;
+/*    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);*/
+    z-index: 50;
+}
+
+/*nav>*/
+#header>ul
+{
+    position: absolute;
+/*    float: right;*/
+    top: 0px;
+    right: 6%;
+/*    left: 0px;*/
+    width: 500px;
+    height: 50px;
+    text-align: right;
+    visibility: visible;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: transparent;
+    padding: 10px 0px;
+}
+
+/*nav>*/
+#header>ul>a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    color: RGBA(142, 207, 211, 1);
+    text-align: right;
+    line-height: 42px;
+    padding: 15px 0px;
+    right: 17.5%;
+}
+
+/*nav>*/
+#header>ul>a:hover
+{
+    color: white;
+}
+
+/*nav>*/
+#header>ul>a>li
+{
+    background-color: none;
+    display: inline-block;
+    margin: 3px 0px;
+    padding: 5px 5px;
+    line-height: 30px;
+    text-align: left; 
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+#order
+{
+    padding: 5px 10px;
+}
+
+nav>ul>a>li:hover
+{
+    background-color: #64979a;
+    border-color: #70ECF2;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+#div1
+{
+    position: relative;
+    height: calc(100vh);
+    background: url(../images/c.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+/*    margin-top: 70px;*/
+}
+
+#div11
+{
+    position: relative;
+    height: auto;
+    width: 70%;
+    margin: auto auto auto auto;
+    top: 25%;
+    background-color: RGBA(255, 255, 255, 0.33);
+/*    display:inline-flex;*/
+    text-align: center;
+}
+
+#something
+{
+    height: auto;
+    
+}
+
+#div111
+{
+    position: relative;
+    height: auto;
+    width: auto;
+    display:inline-flex;
+}
+
+#div112
+{
+    position: relative;
+    height: auto;
+    width: auto;
+    color: RGBA(30, 33, 71, 1);
+    font-size: 250%;
+    font-weight: bolder;
+/*    display:inline-flex;*/
+}
+
+.time
+{
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    color: RGBA(30, 33, 71, 1);
+}
+/*
+.time > p
+{
+    font-size: 1000%;
+    font-weight: bolder;
+    text-align: center;
+}
+*/
+
+/*
+#hour
+{
+}
+*/
+
+.time1
+{
+    font-size: 1000%;
+    display: block;
+    color: RGBA(30, 33, 71, 1);
+    line-height: 100%;
+}
+
+#time2
+{
+    font-size: 150%;
+    display: block;
+}
+
+#div2
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+/*    background-color: #3E4F75;*/
+/*    background-color: #5B9177; */
+    background-color: #9EC5AD;
+}
+
+#div3
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #665175;
+}
+
+#div4
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #9EC5AD;
+}
+
+.c1
+{
+    background-color: RGBA(91, 145, 119, 0.49);
+}
+.c2
+{
+    background-color: RGBA(71, 45, 74, 0.5);
+}

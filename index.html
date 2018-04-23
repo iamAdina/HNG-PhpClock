@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang= "en">
+    
+<head>
+	<title>Aussie/Afrik...</title>
+	<meta name= "keywords" content= "xdna, adina, adinadoes, website developer, webdev, web, web designer, web developer, framework, website">
+	<meta name= "author" content= "Xdna">
+	<link rel= "stylesheet" href= "css/index.css"> 
+    <link rel= "stylesheet" href= "css/font-awesome.css">
+    <link rel= "stylesheet" href= "css/bootstrap.min.css">
+<!--    <link rel= "stylesheet" href= "css/style.css">-->
+</head>
+
+<body>
+    <div id= "bodydiv">
+        <nav>
+            <div id= "header" class= "hhh">
+                <a href= "#" id= "aussie"><span>HNG INTERNSHIP 4</span></a>
+                <ul>
+                    <a href= "#"><li id= "home">Home</li></a>
+                    <a href= "#"><li id= "about">About</li></a>
+                    <a href= "#"><li id= "contact">Contact</li></a>
+                </ul>
+            </div>
+<!--
+            <div>
+                <i id= "bars" class= "fa fa-bars"></i>
+            </div>
+-->
+        </nav>
+        <div id="div1">
+            <div id= "div11">
+                <div id="something">
+                    <div id= "div111">
+                        <p class="time" id="hour">
+                            <span class="time1" id= "hours"></span>
+                            <span id= "time2">Hours</span>
+                        </p>
+                        <p class="time1" id="hour">
+                            :
+                        </p>
+                        <p class="time" id="minute"> 
+                            <span class="time1" id= "minutes"></span>
+                            <span id= "time2">Minutes</span>
+                        </p>
+                        <p class="time1" id="hour">
+                            :
+                        </p>
+                        <p class="time" id="second"> 
+                            <span class="time1" id= "seconds"></span>
+                            <span id= "time2">Seconds</span>
+                        </p>
+                    </div>
+                    <div id= "div112">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/typed.js"></script>
+<!--<script type='text/javascript' src = "js/index.js"></script>-->
+    <script type='text/javascript'>
+    function ajaxcall()
+        {
+            $.ajax({
+                method:'GET',
+                url: 'js/gettime.php',
+                success: function(data){
+            //            alert(data);
+                    data = data.split(':');
+                    $('#hours').text(' ' + data[0] );
+                    $('#minutes').text(' ' + data[1] );
+                    $('#seconds').text(' ' + data[2]);
+                }
+            });
+        }
+        setInterval('ajaxcall()', 1000);
+    </script>
+    <script type='text/javascript'>
+//    $(document).ready(function(){
+        $.ajax({
+                method:'GET',
+                url: 'js/getdate.php',
+                success: function(data){
+            //            alert(data);
+//                    data = data.split(' ');
+                    $('#div112').html(data);
+                }
+            });
+//    }
+    </script>
+    
+</html>

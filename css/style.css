@@ -1,0 +1,400 @@
+﻿body{
+  font-family:Lato;
+}
+
+.navbar-default .navbar-link:hover{
+  color:#8E342D !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  color:#8E342D !important;
+  background-color:transparent;
+}
+
+a.dropdown-toggle{
+  background-color:#FBD303;
+}
+
+#logo{
+  max-height:42px;
+  margin-right:16px;
+  margin-top:-10px;
+  display:inline-block;
+}
+
+#bc-intro{
+  text-align:center;
+  padding:40px;
+  background:url(../images/8.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 65px;
+}
+
+#bc-intro .jumbotron{
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.5);
+  max-width:800px;
+  margin:0 auto;
+}
+
+#bc-intro .jumbotron h1{
+  font-size:60px;
+}
+
+@media (max-width:991px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+.bc-info-message{
+  text-align:center;
+  padding-bottom:70px;
+}
+
+.bc-info-message h1{
+  font-weight:normal;
+  margin-bottom:30px;
+  margin-top:60px;
+}
+
+/*********/
+.bc-whyus-message, .bc-gallery, .bc-staff-pic{
+  text-align:center;
+  padding-bottom:70px;
+}
+
+.bc-whyus-message h1, .bc-gallery h1, .bc-staff-pic h1{
+  font-weight:normal;
+  margin-bottom:30px;
+  margin-top:60px;
+}
+
+
+#welcome p{
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+  color:#666;
+}
+
+.bc-whyus, .bc-staff{
+  background-color:#eff2fb;
+}
+
+#why .item{
+  padding:26px;
+}
+
+#why .item span{
+  font-size:40px;
+  color:#8E342D;
+}
+
+#why .item h2{
+  font-weight:normal;
+  margin:15px 0;
+  font-size:24px;
+}
+
+#why .item p{
+  color:#555;
+}
+
+a.navbar-brand.navbar-link{
+  color:black;
+}
+
+a.dropdown-toggle{
+  color:black !important;
+}
+
+a{
+  color:black !important;
+}
+
+.footer{
+  background-color:#292C2F;
+}
+
+.social-links p{
+  color:#fff;
+}
+
+.social-links h3{
+  color:#777;
+}
+
+.social-links span{
+  font-size:30px;
+  margin:0px 5px;
+  color:#fff;
+}
+
+.contact span{
+  margin:5px 10px;
+  font-size:40px;
+}
+
+.contact p{
+  font-size:20px;
+  color:#777;
+}
+
+.address{
+  background-color:#292C2F;
+  color:#777;
+  height:180px;
+  padding:50px;
+}
+
+.contact{
+  background-color:#292C2F;
+  color:#777;
+  height:160px;
+}
+
+.social{
+  margin-bottom:10px;
+}
+
+.input-sm{
+  margin-right:10px;
+}
+
+.last-bar{
+  margin:5px;
+}
+
+footer{
+  background-color:#292c2f;
+  box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing:border-box;
+  width:100%;
+  text-align:left;
+  font:bold 16px sans-serif;
+  padding:25px 50px;
+  bottom:0;
+  color:#fff;
+}
+
+.footer-navigation h3{
+  margin:0;
+  font:normal 36px Cookie, cursive;
+  margin-bottom:20px;
+  color:#fff;
+}
+
+.footer-navigation h3 a{
+  text-decoration:none;
+  color:#fff;
+}
+
+.footer-navigation h3 span{
+  color:#5383d3;
+}
+
+.footer-navigation p.links a{
+  color:#fff;
+  text-decoration:none;
+}
+
+.footer-navigation p.company-name{
+  color:#8f9296;
+  font-size:14px;
+  font-weight:normal;
+  margin-top:20px;
+}
+
+@media (max-width:767px) {
+  .footer-contacts{
+    margin:30px 0;
+  }
+}
+
+.footer-contacts p{
+  display:inline-block;
+  color:#ffffff;
+  vertical-align:middle;
+}
+
+.footer-contacts p a{
+  color:#5383d3;
+  text-decoration:none;
+}
+
+.fa.footer-contacts-icon{
+  background-color:#33383b;
+  color:#fff;
+  font-size:18px;
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  text-align:center;
+  line-height:38px;
+  margin:10px 15px 10px 0;
+}
+
+span.new-line-span{
+  display:block;
+  font-weight:normal;
+  display:block;
+  font-weight:normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-about h4{
+  display:block;
+  color:#fff;
+  font-size:14px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.footer-about p{
+  line-height:20px;
+  color:#92999f;
+  font-size:13px;
+  font-weight:normal;
+  margin:0;
+}
+
+div.social-links{
+  margin-top:20px;
+  color:#fff;
+}
+
+.social-links a{
+  display:inline-block;
+  width:35px;
+  height:35px;
+  cursor:pointer;
+  background-color:#33383b;
+  border-radius:2px;
+  font-size:20px;
+  color:#ffffff;
+  text-align:center;
+  line-height:35px;
+  margin-right:5px;
+  margin-bottom:5px;
+}
+
+/****************************/
+.hv1:hover span {
+  -webkit-animation-name: hvr-wobble-skew;
+  animation-name: hvr-wobble-skew;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.hv2:hover span {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+.hv3:hover span {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.hv4:hover span {
+  -webkit-animation-name: hvr-hang-sink, hvr-hang;
+  animation-name: hvr-hang-sink, hvr-hang;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+.hv5:hover span {
+  -webkit-animation-name: hvr-wobble-skew;
+  animation-name: hvr-wobble-skew;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.hv6:hover span {
+  -webkit-animation-name: hvr-wobble-to-top-right;
+  animation-name: hvr-wobble-to-top-right;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.rotate > #logo{
+  -webkit-transition-duration:0.8s;
+  -moz-transition-duration:0.8s;
+  -o-transition-duration:0.8s;
+  transition-duration:0.8s;
+  -webkit-transition-property:-webkit-transform;
+  -moz-transition-property:-moz-transform;
+  -o-transition-property:-o-transform;
+  transition-property:transform;
+  overflow:hidden;
+  -webkit-animation-name: turn;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.rotate:hover #logo{
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+}
+
+/* .rotate {
+  -webkit-transition-duration:0.8s;
+  -moz-transition-duration:0.8s;
+  -o-transition-duration:0.8s;
+  transition-duration:0.8s;
+  -webkit-transition-property:-webkit-transform;
+  -moz-transition-property:-moz-transform;
+  -o-transition-property:-o-transform;
+  transition-property:transform;
+  overflow:hidden;
+  -webkit-animation-name: turn;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.rotate:hover {
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+} *x
